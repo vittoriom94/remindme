@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #save {
+        height: 30px;
+        width: 200px;
+        outline: none;
+      }
+      #checkAll {
+        height: 30px;
+        width: 200px;
+        outline: none;
+      }
+      #delete {
+        height: 30px;
+        width: 200px;
+        outline: none;
+      }
+      #showAll {
+        height: 30px;
+        width: 200px;
+        outline: none;
+      }
+      #time {
+        width: 25%;
+        outline: none;
+      }
+      #linkSaved {
+        color: red;
+        display: none;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="save">Save this Link!</button>
+    <p id="linkSaved">Link saved!</p>
+    <p>Save for:
+    <input type="number" id="time" value="1"> Days</p>
+    <button id="delete">Delete All</button>
+    <button id="showAll">Show All</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
